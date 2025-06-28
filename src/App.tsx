@@ -23,7 +23,7 @@ function App() {
       <WhyRecyLinker />
       <SDGAlignment />
       <Impact />
-      <Testimonials />
+
       <Newsletter />
       <CTA />
       <Footer />

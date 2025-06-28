@@ -5,37 +5,37 @@ const Features = () => {
   const features = [
     {
       icon: Truck,
-      title: '🚛 Uber-for-Trash Driver Network',
+      title: ' Green-Haulers Driver Network',
       description: 'Vetted drivers available on-demand with real-time tracking and customer ratings.',
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
       icon: MapPin,
-      title: '📍 AI-Based Route Optimization',
+      title: 'AI-Based Route Optimization',
       description: 'Smart algorithms reduce collection time by 35% and fuel costs by 40%.',
       gradient: 'from-green-500 to-emerald-500'
     },
     {
       icon: ShoppingCart,
-      title: '🛒 Recycled Products Marketplace',
+      title: ' Recycled Products Marketplace',
       description: 'Connect recyclers with manufacturers through transparent pricing and quality assurance.',
       gradient: 'from-purple-500 to-pink-500'
     },
     {
       icon: BarChart3,
-      title: '📊 Real-Time Waste Analytics',
+      title: 'Real-Time Waste Analytics',
       description: 'Track environmental impact, carbon footprint reduction, and community metrics.',
       gradient: 'from-orange-500 to-red-500'
     },
     {
       icon: Briefcase,
-      title: '💼 Job Creation Engine',
+      title: ' Job Creation Engine',
       description: 'Empowering communities with sustainable employment opportunities.',
       gradient: 'from-teal-500 to-green-500'
     },
     {
       icon: Users,
-      title: '🤝 Corporate & Government Partnerships',
+      title: ' Corporate & Government Partnerships',
       description: 'API integration for third-party firms and government collaboration.',
       gradient: 'from-indigo-500 to-blue-500'
     }

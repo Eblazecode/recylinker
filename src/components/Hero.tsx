@@ -3,10 +3,10 @@ import { ArrowRight, Play, Smartphone, Truck, Users, BarChart3 } from 'lucide-re
 
 const Hero = () => {
   const stats = [
-    { icon: Truck, label: 'Pilot Drivers', value: '25+' },
-    { icon: BarChart3, label: 'Tons Collected', value: '150+' },
-    { icon: Users, label: 'Beta Users', value: '200+' },
-    { icon: Smartphone, label: 'App Downloads', value: '500+' },
+    //{ icon: Truck, label: 'Pilot Drivers', value: '25+' },
+    //{ icon: BarChart3, label: 'Tons Collected', value: '150+' },
+    //{ icon: Users, label: 'Beta Users', value: '200+' },
+   // { icon: Smartphone, label: 'App Downloads', value: '500+' },
   ];
 
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">
-                🚀 MVP Launch - Join Our Beta
+                🚀
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
@@ -37,12 +37,12 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="group bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
-                📱 Join Beta Waitlist
+                Join Beta Waitlist
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
               <button className="group bg-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
-                🚛 Become a Pilot Driver
+                 Become a Pilot Driver
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
@@ -77,7 +77,7 @@ const Hero = () => {
                 <div className="space-y-3">
                   <div className="bg-white/20 rounded-lg p-3">
                     <div className="text-sm opacity-90">Beta Testing</div>
-                    <div className="font-bold">Lagos Pilot Area</div>
+                    <div className="font-bold">Abuja Pilot Area</div>
                   </div>
                   
                   <div className="flex space-x-2">
@@ -95,22 +95,19 @@ const Hero = () => {
               
               <div className="space-y-3">
                 <button className="w-full bg-green-500 text-white py-3 rounded-xl font-semibold">
-                  📱 Request Beta Access
+                  Request Beta Access
                 </button>
                 <button className="w-full bg-blue-500 text-white py-3 rounded-xl font-semibold">
-                  📊 Track Pilot Impact
+                   Track Pilot Impact
                 </button>
                 <button className="w-full bg-purple-500 text-white py-3 rounded-xl font-semibold">
-                  💰 Join Driver Program
+                   Join Driver Program
                 </button>
               </div>
               
               <div className="flex justify-center space-x-4 mt-6">
                 <div className="bg-gray-300 text-gray-600 px-4 py-2 rounded-lg text-xs font-semibold">
-                  📱 Coming Soon
-                </div>
-                <div className="bg-gray-300 text-gray-600 px-4 py-2 rounded-lg text-xs font-semibold">
-                  🍎 Coming Soon
+                    <span className="font-bold">Beta Stage</span> - Join our pilot program to help shape the future of waste management.
                 </div>
               </div>
             </div>

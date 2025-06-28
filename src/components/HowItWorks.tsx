@@ -89,10 +89,10 @@ const HowItWorks = () => {
         <div className="text-center mt-16">
           <div className="inline-flex flex-col sm:flex-row gap-4">
             <button className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-              📱 Download the App
+               Download the App
             </button>
             <button className="border-2 border-green-500 text-green-600 px-8 py-4 rounded-full font-semibold hover:bg-green-50 transition-all duration-300">
-              🚛 Become a Driver
+              Become a Driver
             </button>
           </div>
         </div>

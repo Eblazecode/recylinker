@@ -121,7 +121,7 @@ const Stakeholders = () => {
         </div>
 
         {/* Tab Content */}
-        <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
+        <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12 w-8/12 mx-auto">
           {stakeholders.map((stakeholder, index) => (
             <div
               key={index}
@@ -152,9 +152,9 @@ const Stakeholders = () => {
                     {stakeholder.cta}
                   </button>
                 </div>
-
-                <div className="relative">
-                  <div className={`bg-gradient-to-br ${colorMap[stakeholder.color].bg.replace('bg-', 'from-')}-400 to-${colorMap[stakeholder.color].bg.split('-')[1]}-600 rounded-2xl p-8 text-white`}>
+                {/* right Tab Content */}
+                {/*  <div className="relative">
+                  <div className={`bg-gradient-to-br ${colorMap[stakeholder.color].bg.replace('bg-', 'from-')}-400 to-${colorMap[stakeholder.color].bg.split('-')[1]}-600 rounded-2xl p-8 text-black`}>
                     <h4 className="text-xl font-bold mb-6">Pilot Stats</h4>
                     
                     <div className="grid grid-cols-2 gap-4">
@@ -180,7 +180,7 @@ const Stakeholders = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div>   */}
               </div>
             </div>
           ))}

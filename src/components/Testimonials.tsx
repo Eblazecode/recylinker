@@ -5,33 +5,33 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: 'Adunni Adebayo',
-      role: 'Lagos Resident',
-      location: 'Victoria Island',
-      content: 'RecyLinker transformed how our community handles waste. The AI-optimized pickups are so efficient, and knowing our waste creates jobs makes it even better.',
+      role: 'Beta User',
+      location: 'Victoria Island, Lagos',
+      content: 'The RecyLinker pilot program has been amazing! The drivers are professional and the app is so easy to use. Excited to see this scale across Lagos.',
       rating: 5,
       avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Emeka Okafor',
-      role: 'Collection Driver',
-      location: 'Abuja',
-      content: 'The route optimization saves me 3 hours daily and reduces fuel costs by 40%. RecyLinker helped me build a sustainable business while serving my community.',
+      role: 'Pilot Driver',
+      location: 'Ikeja, Lagos',
+      content: 'Being part of the RecyLinker pilot has been great. The route optimization really works and I\'m earning good money while helping my community.',
       rating: 5,
       avatar: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Dr. Fatima Mohammed',
-      role: 'Environmental Officer',
-      location: 'Kano State Government',
-      content: 'RecyLinker provides the transparency and data we need for effective waste management policy. The impact metrics help us track our environmental goals.',
+      role: 'Environmental Consultant',
+      location: 'Abuja',
+      content: 'I\'ve been following RecyLinker\'s progress and the early results are promising. This could be the solution Nigeria needs for sustainable waste management.',
       rating: 5,
       avatar: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     },
     {
       name: 'Chief Olumide Bello',
-      role: 'Manufacturing Executive',
-      location: 'Ogun State',
-      content: 'The quality of recycled materials from RecyLinker is exceptional. We\'ve reduced raw material costs by 25% while meeting our sustainability targets.',
+      role: 'Local Business Owner',
+      location: 'Port Harcourt',
+      content: 'We\'re excited to partner with RecyLinker for our business waste. The pilot program shows real potential for transforming how we handle waste.',
       rating: 5,
       avatar: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop'
     }
@@ -42,14 +42,13 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Trusted by
+            Early
             <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-              {' '}Communities Nationwide
+              {' '}User Feedback
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See what residents, drivers, recyclers, and government officials 
-            are saying about RecyLinker's impact on their communities.
+            See what our pilot users, drivers, and partners are saying about RecyLinker's potential.
           </p>
         </div>
 
@@ -90,17 +89,17 @@ const Testimonials = () => {
           <div className="inline-flex items-center space-x-8 bg-white rounded-full px-8 py-4 shadow-lg">
             <div className="text-center">
               <div className="text-2xl font-bold text-gray-900">4.9/5</div>
-              <div className="text-sm text-gray-600">Average Rating</div>
+              <div className="text-sm text-gray-600">Beta Rating</div>
             </div>
             <div className="w-px h-10 bg-gray-200"></div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-900">1,200+</div>
-              <div className="text-sm text-gray-600">Happy Users</div>
+              <div className="text-2xl font-bold text-gray-900">200+</div>
+              <div className="text-sm text-gray-600">Beta Users</div>
             </div>
             <div className="w-px h-10 bg-gray-200"></div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-900">25+</div>
-              <div className="text-sm text-gray-600">Communities</div>
+              <div className="text-2xl font-bold text-gray-900">3</div>
+              <div className="text-sm text-gray-600">Pilot Cities</div>
             </div>
           </div>
         </div>

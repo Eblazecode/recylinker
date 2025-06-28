@@ -5,45 +5,45 @@ const Impact = () => {
   const metrics = [
     {
       icon: Leaf,
-      value: '2,500',
+      value: '150',
       unit: 'Tons',
-      label: 'Waste Diverted from Landfills',
-      description: 'Reducing environmental pollution and extending landfill lifespan',
+      label: 'Waste Collected in Pilot',
+      description: 'Early results from our Lagos pilot program',
       color: 'text-green-600'
     },
     {
       icon: Users,
-      value: '850',
+      value: '25',
       unit: 'Jobs',
-      label: 'Created Across Communities',
-      description: 'Empowering local communities with sustainable employment',
+      label: 'Created in Beta Phase',
+      description: 'Pilot drivers earning sustainable income',
       color: 'text-blue-600'
     },
     {
       icon: TrendingUp,
-      value: '₦45M',
-      unit: 'Value',
-      label: 'Generated from Recycled Materials',
-      description: 'Creating economic value from waste through circular economy',
+      value: '₦500K',
+      unit: 'Award',
+      label: 'Software Exhibition Winner',
+      description: 'Recognition for innovation and potential',
       color: 'text-purple-600'
     },
     {
       icon: Globe,
-      value: '15',
-      unit: 'States',
-      label: 'Across Nigeria',
-      description: 'Expanding sustainable waste management nationwide',
+      value: '3',
+      unit: 'Areas',
+      label: 'Pilot Locations',
+      description: 'Testing in Lagos, Abuja, and Port Harcourt',
       color: 'text-orange-600'
     }
   ];
 
   const achievements = [
-    'Reduced collection costs by 40% through AI optimization',
-    'Achieved 85% waste diversion rate from landfills',
-    'Created 850+ sustainable jobs in 6 months',
-    '50+ verified recycling partners nationwide',
-    '95% customer satisfaction rating',
-    'Won ₦500k at National Software Exhibition'
+    'Launched MVP with 25+ verified pilot drivers',
+    'Collected 150+ tons in first 3 months',
+    'Won ₦500k at National Software Exhibition',
+    '200+ beta users providing valuable feedback',
+    '95% positive feedback from pilot users',
+    'Partnerships with 5 local recycling centers'
   ];
 
   return (
@@ -51,14 +51,13 @@ const Impact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Measurable
+            Early
             <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-              {' '}Environmental Impact
+              {' '}Impact & Traction
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See the real-world impact RecyLinker is making across Nigeria's communities, 
-            environment, and economy through data-driven sustainability.
+            See the promising results from our MVP launch and pilot programs across Nigeria.
           </p>
         </div>
 
@@ -86,10 +85,10 @@ const Impact = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Achievements</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">MVP Milestones</h3>
               <p className="text-gray-600 mb-6">
-                RecyLinker's innovative approach has delivered concrete results across Nigeria, 
-                demonstrating the power of technology in solving environmental challenges.
+                RecyLinker's MVP has shown strong early traction and validation, 
+                demonstrating the market need for our innovative waste management solution.
               </p>
             </div>
 
@@ -107,43 +106,43 @@ const Impact = () => {
 
           <div className="relative">
             <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-6">Sustainability Dashboard</h3>
+              <h3 className="text-2xl font-bold mb-6">MVP Dashboard</h3>
               
               <div className="space-y-6">
                 <div className="flex items-center justify-between">
-                  <span>Carbon Footprint Reduction</span>
-                  <span className="font-bold">-42%</span>
+                  <span>Pilot Program Progress</span>
+                  <span className="font-bold">Phase 1</span>
                 </div>
                 <div className="w-full bg-white/20 rounded-full h-2">
-                  <div className="bg-white rounded-full h-2 w-[42%]"></div>
+                  <div className="bg-white rounded-full h-2 w-[35%]"></div>
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <span>Waste Diversion Rate</span>
-                  <span className="font-bold">85%</span>
+                  <span>User Satisfaction</span>
+                  <span className="font-bold">95%</span>
                 </div>
                 <div className="w-full bg-white/20 rounded-full h-2">
-                  <div className="bg-white rounded-full h-2 w-[85%]"></div>
+                  <div className="bg-white rounded-full h-2 w-[95%]"></div>
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <span>Community Engagement</span>
-                  <span className="font-bold">92%</span>
+                  <span>Market Validation</span>
+                  <span className="font-bold">Strong</span>
                 </div>
                 <div className="w-full bg-white/20 rounded-full h-2">
-                  <div className="bg-white rounded-full h-2 w-[92%]"></div>
+                  <div className="bg-white rounded-full h-2 w-[80%]"></div>
                 </div>
               </div>
 
               <div className="mt-8 p-4 bg-white/10 rounded-xl">
-                <div className="text-sm opacity-90 mb-1">This Month's Impact</div>
-                <div className="text-2xl font-bold">15.2 tons CO₂ saved</div>
+                <div className="text-sm opacity-90 mb-1">Next Milestone</div>
+                <div className="text-2xl font-bold">Scale to 5 Cities</div>
               </div>
             </div>
             
             {/* Floating badge */}
             <div className="absolute -top-4 -right-4 bg-yellow-400 text-yellow-900 px-4 py-2 rounded-full text-sm font-bold transform rotate-12">
-              Award Winner!
+              MVP Stage!
             </div>
           </div>
         </div>

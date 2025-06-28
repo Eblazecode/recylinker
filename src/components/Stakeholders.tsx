@@ -9,75 +9,75 @@ const Stakeholders = () => {
       id: 'residents',
       title: 'Homeowners/Residents',
       icon: Home,
-      subtitle: 'Easy, reliable waste pickups',
+      subtitle: 'Join our beta program',
       benefits: [
-        'Schedule one-time or recurring pickups',
+        'Early access to waste pickup scheduling',
         'Track your environmental impact',
         'Transparent pricing with no hidden fees',
-        'Verified and rated drivers',
-        'Real-time pickup notifications'
+        'Verified and rated pilot drivers',
+        'Help shape the future of waste management'
       ],
-      cta: 'Request Pickup',
+      cta: 'Join Beta Waitlist',
       color: 'blue'
     },
     {
       id: 'businesses',
       title: 'Businesses',
       icon: Building,
-      subtitle: 'Scheduled waste management with reporting',
+      subtitle: 'Partner with us for pilot testing',
       benefits: [
-        'Bulk waste collection services',
-        'Sustainability reporting for compliance',
-        'Cost-effective waste management',
-        'Custom pickup schedules',
-        'Corporate social responsibility metrics'
+        'Pilot waste collection services',
+        'Early sustainability reporting features',
+        'Cost-effective waste management testing',
+        'Custom pickup schedules for your business',
+        'Be part of the circular economy movement'
       ],
-      cta: 'Get Business Plan',
+      cta: 'Become Pilot Partner',
       color: 'green'
     },
     {
       id: 'drivers',
       title: 'Drivers',
       icon: Truck,
-      subtitle: 'Earn on your schedule',
+      subtitle: 'Join our pilot driver program',
       benefits: [
-        'Flexible working hours',
-        'AI-optimized routes save time and fuel',
+        'Flexible working hours in pilot areas',
+        'Early access to route optimization',
         'Guaranteed payment system',
         'Driver training and certification',
-        'Performance bonuses and incentives'
+        'Ground-floor opportunity in growing startup'
       ],
-      cta: 'Become a Driver',
+      cta: 'Apply as Pilot Driver',
       color: 'purple'
     },
     {
       id: 'recyclers',
       title: 'Recycling Agencies',
       icon: Recycle,
-      subtitle: 'Reliable supply of sorted recyclables',
+      subtitle: 'Partner with our growing network',
       benefits: [
-        'Consistent supply of quality materials',
-        'Pre-sorted waste categories',
+        'Access to pilot waste streams',
         'Digital tracking and documentation',
-        'Partnership opportunities',
-        'Market access through our platform'
+        'Partnership opportunities as we scale',
+        'Early market access through our platform',
+        'Collaborate on sustainable solutions'
       ],
-      cta: 'Partner With Us',
+      cta: 'Explore Partnership',
       color: 'orange'
     },
     {
       id: 'government',
       title: 'Governments',
       icon: Users,
-      subtitle: 'Smart data for waste policy and sanitation',
+      subtitle: 'Pilot smart waste management data',
       benefits: [
-        'Real-time waste management data',
-        'Policy insights and recommendations',
+        'Early access to waste management insights',
+        'Pilot program data and recommendations',
         'Community engagement metrics',
-        'Environmental impact reporting',
+        'Environmental impact pilot reporting',
         'Public-private partnership opportunities'
       ],
-      cta: 'Schedule Demo',
+      cta: 'Schedule Pilot Demo',
       color: 'indigo'
     }
   ];
@@ -98,7 +98,7 @@ const Stakeholders = () => {
             For Stakeholders
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            RecyLinker serves every part of the waste ecosystem with tailored solutions.
+            Join our pilot programs and help shape the future of waste management in Nigeria.
           </p>
         </div>
 
@@ -155,13 +155,13 @@ const Stakeholders = () => {
 
                 <div className="relative">
                   <div className={`bg-gradient-to-br ${colorMap[stakeholder.color].bg.replace('bg-', 'from-')}-400 to-${colorMap[stakeholder.color].bg.split('-')[1]}-600 rounded-2xl p-8 text-white`}>
-                    <h4 className="text-xl font-bold mb-6">Quick Stats</h4>
+                    <h4 className="text-xl font-bold mb-6">Pilot Stats</h4>
                     
                     <div className="grid grid-cols-2 gap-4">
                       <div className="bg-white/20 rounded-lg p-4">
                         <Calendar className="w-6 h-6 mb-2" />
-                        <div className="text-2xl font-bold">24/7</div>
-                        <div className="text-sm opacity-90">Available</div>
+                        <div className="text-2xl font-bold">3</div>
+                        <div className="text-sm opacity-90">Months Live</div>
                       </div>
                       <div className="bg-white/20 rounded-lg p-4">
                         <BarChart3 className="w-6 h-6 mb-2" />
@@ -170,13 +170,13 @@ const Stakeholders = () => {
                       </div>
                       <div className="bg-white/20 rounded-lg p-4">
                         <Users className="w-6 h-6 mb-2" />
-                        <div className="text-2xl font-bold">500+</div>
-                        <div className="text-sm opacity-90">Partners</div>
+                        <div className="text-2xl font-bold">25+</div>
+                        <div className="text-sm opacity-90">Pilot Partners</div>
                       </div>
                       <div className="bg-white/20 rounded-lg p-4">
                         <DollarSign className="w-6 h-6 mb-2" />
-                        <div className="text-2xl font-bold">40%</div>
-                        <div className="text-sm opacity-90">Cost Savings</div>
+                        <div className="text-2xl font-bold">₦500K</div>
+                        <div className="text-sm opacity-90">Award Won</div>
                       </div>
                     </div>
                   </div>

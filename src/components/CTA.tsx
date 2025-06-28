@@ -6,20 +6,20 @@ const CTA = () => {
     {
       icon: Smartphone,
       title: 'Residents',
-      description: 'Schedule pickups and track impact',
-      action: 'Download App'
+      description: 'Join our beta waitlist',
+      action: 'Join Beta'
     },
     {
       icon: Users,
       title: 'Drivers',
-      description: 'Join our verified network',
+      description: 'Apply for pilot program',
       action: 'Apply Now'
     },
     {
       icon: Building,
       title: 'Businesses',
-      description: 'Partner with us for sustainability',
-      action: 'Get Started'
+      description: 'Become a pilot partner',
+      action: 'Partner Up'
     }
   ];
 
@@ -28,11 +28,11 @@ const CTA = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Ready to Transform Your Community?
+            Ready to Join the Revolution?
           </h2>
           <p className="text-xl text-green-100 max-w-3xl mx-auto">
-            Join thousands of Nigerians who are already making a positive impact 
-            through sustainable waste management and circular economy practices.
+            Be part of Nigeria's waste management transformation from the ground up. 
+            Join our pilot programs and help shape the future of sustainable waste collection.
           </p>
         </div>
 
@@ -59,16 +59,16 @@ const CTA = () => {
             </h3>
             <p className="text-green-100 mb-8 text-lg">
               Whether you're a government agency, NGO, or corporate organization, 
-              let's work together to build a sustainable future for Nigeria.
+              join our pilot programs and help us build a sustainable future for Nigeria.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-green-600 px-8 py-4 rounded-full font-semibold hover:bg-green-50 transition-all duration-300 flex items-center justify-center transform hover:-translate-y-1">
-                Schedule Demo
+                Schedule Pilot Demo
                 <ArrowRight className="ml-2 w-5 h-5" />
               </button>
               <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-green-600 transition-all duration-300">
-                Contact Sales
+                Learn About Partnerships
               </button>
             </div>
           </div>
@@ -76,15 +76,15 @@ const CTA = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-green-100">
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-green-300 rounded-full"></div>
-              <span>Free consultation</span>
+              <span>MVP stage</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-green-300 rounded-full"></div>
-              <span>No setup fees</span>
+              <span>Pilot programs available</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-green-300 rounded-full"></div>
-              <span>24/7 support</span>
+              <span>Early adopter benefits</span>
             </div>
           </div>
         </div>

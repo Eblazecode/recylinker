@@ -1,44 +1,54 @@
 import React from 'react';
-import { ArrowRight, Play, Brain, Truck, Building, Users } from 'lucide-react';
+import { ArrowRight, Play, Smartphone, Truck, Users, BarChart3 } from 'lucide-react';
 
 const Hero = () => {
   const stats = [
-    { icon: Brain, label: 'AI-Powered Routes', value: '95% Efficiency' },
     { icon: Truck, label: 'Active Drivers', value: '500+' },
-    { icon: Building, label: 'Partner Recyclers', value: '50+' },
-    { icon: Users, label: 'Communities Served', value: '25+' },
+    { icon: BarChart3, label: 'Tons Collected', value: '2.5K' },
+    { icon: Users, label: 'Happy Users', value: '1,200+' },
+    { icon: Smartphone, label: 'App Downloads', value: '5K+' },
   ];
 
   return (
-    <section className="pt-20 pb-16 bg-gradient-to-br from-green-50 via-white to-emerald-50">
+    <section className="pt-20 pb-16 bg-gradient-to-br from-green-50 via-white to-emerald-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="space-y-4">
+            <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">
-                🏆 ₦500k Award Winner - Software Exhibition
+                ♻️ Smart Waste Collection Platform
               </div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                AI-Powered
-                <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                  {' '}Waste Management
+              
+              <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight">
+                Smart Waste Collection.
+                <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent block">
+                  Cleaner Cities.
                 </span>
-                {' '}for Nigeria
+                <span className="text-4xl lg:text-5xl text-gray-700">
+                  Empowered People.
+                </span>
               </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                Connect residents, drivers, recyclers, and manufacturers in a seamless ecosystem. 
-                Transform waste into value with intelligent route optimization and sustainable practices.
+              
+              <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
+                RecyLinker connects households, businesses, and recyclers with vetted waste drivers using AI — 
+                <span className="font-semibold text-green-600"> like Uber, but for trash.</span>
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="group bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
-                Start Your Journey
+                📱 Request Pickup
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
+              
+              <button className="group bg-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
+                🚛 Become a Driver
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
+              
               <button className="group flex items-center justify-center px-8 py-4 border-2 border-gray-200 rounded-full font-semibold text-gray-700 hover:border-green-500 hover:text-green-600 transition-all duration-300">
                 <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform" />
-                Watch Demo
+                Download App
               </button>
             </div>
 
@@ -56,43 +66,51 @@ const Hero = () => {
           </div>
 
           <div className="relative">
-            <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8">
-              <div className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-semibold text-gray-900">Route Optimization</h3>
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+            {/* Mobile App Mockup */}
+            <div className="relative z-10 bg-white rounded-3xl shadow-2xl p-6 max-w-sm mx-auto">
+              <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl p-6 text-white mb-4">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-lg font-semibold">RecyLinker</h3>
+                  <div className="w-3 h-3 bg-green-300 rounded-full animate-pulse"></div>
                 </div>
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                      <div className="w-4 h-4 bg-blue-500 rounded-full"></div>
-                    </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium text-gray-900">Pickup: Victoria Island</div>
-                      <div className="text-xs text-gray-500">15 stops optimized</div>
-                    </div>
-                    <div className="text-green-600 font-semibold">-32%</div>
+                
+                <div className="space-y-3">
+                  <div className="bg-white/20 rounded-lg p-3">
+                    <div className="text-sm opacity-90">Next Pickup</div>
+                    <div className="font-bold">Tomorrow, 9:00 AM</div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                      <div className="w-4 h-4 bg-green-500 rounded-full"></div>
+                  
+                  <div className="flex space-x-2">
+                    <div className="flex-1 bg-white/20 rounded-lg p-3 text-center">
+                      <div className="text-lg font-bold">2.3</div>
+                      <div className="text-xs opacity-90">Tons Recycled</div>
                     </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium text-gray-900">Sorting: Ikeja Facility</div>
-                      <div className="text-xs text-gray-500">2.3 tons processed</div>
+                    <div className="flex-1 bg-white/20 rounded-lg p-3 text-center">
+                      <div className="text-lg font-bold">₦15K</div>
+                      <div className="text-xs opacity-90">Earned</div>
                     </div>
-                    <div className="text-green-600 font-semibold">+45%</div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
-                      <div className="w-4 h-4 bg-purple-500 rounded-full"></div>
-                    </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium text-gray-900">Delivery: Manufacturer</div>
-                      <div className="text-xs text-gray-500">Quality grade A+</div>
-                    </div>
-                    <div className="text-green-600 font-semibold">98%</div>
-                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-3">
+                <button className="w-full bg-green-500 text-white py-3 rounded-xl font-semibold">
+                  📱 Book a pickup in seconds
+                </button>
+                <button className="w-full bg-blue-500 text-white py-3 rounded-xl font-semibold">
+                  📊 Track your waste impact
+                </button>
+                <button className="w-full bg-purple-500 text-white py-3 rounded-xl font-semibold">
+                  💰 Get paid to collect waste
+                </button>
+              </div>
+              
+              <div className="flex justify-center space-x-4 mt-6">
+                <div className="bg-black text-white px-4 py-2 rounded-lg text-xs font-semibold">
+                  📱 Google Play
+                </div>
+                <div className="bg-black text-white px-4 py-2 rounded-lg text-xs font-semibold">
+                  🍎 App Store
                 </div>
               </div>
             </div>
@@ -100,6 +118,7 @@ const Hero = () => {
             {/* Floating elements */}
             <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full opacity-20 animate-bounce"></div>
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full opacity-20 animate-pulse"></div>
+            <div className="absolute top-1/2 -right-8 w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full opacity-20 animate-ping"></div>
           </div>
         </div>
       </div>

@@ -1,30 +1,34 @@
 import React from 'react';
-import { Home, Truck, Recycle, Building2 } from 'lucide-react';
+import { Smartphone, Users, MapPin, BarChart3 } from 'lucide-react';
 
 const HowItWorks = () => {
   const steps = [
     {
-      icon: Home,
-      title: 'Residents Register',
-      description: 'Households and businesses sign up and schedule waste pickups through our platform.',
+      icon: Smartphone,
+      title: 'Request Pickup',
+      description: 'Book a one-time or recurring waste collection through the app.',
+      detail: 'Schedule pickups that fit your routine',
       color: 'blue'
     },
     {
-      icon: Truck,
-      title: 'Smart Collection',
-      description: 'AI optimizes routes for verified drivers who collect waste efficiently and sustainably.',
+      icon: Users,
+      title: 'Get Matched',
+      description: 'Our AI pairs you with the nearest vetted RecyLinker driver.',
+      detail: 'Verified drivers with real-time tracking',
       color: 'green'
     },
     {
-      icon: Recycle,
-      title: 'Processing & Sorting',
-      description: 'Materials are sorted, processed, and quality-checked at certified recycling facilities.',
+      icon: MapPin,
+      title: 'Track & Drop-off',
+      description: 'Track your pickup. Waste is delivered to verified recycling centers.',
+      detail: 'Full transparency from pickup to processing',
       color: 'purple'
     },
     {
-      icon: Building2,
-      title: 'Manufacturing Supply',
-      description: 'Processed materials are supplied to manufacturers as high-quality recycled raw materials.',
+      icon: BarChart3,
+      title: 'Impact Report',
+      description: 'View how much waste you\'ve recycled and your environmental impact.',
+      detail: 'See your contribution to a cleaner Nigeria',
       color: 'orange'
     }
   ];
@@ -41,14 +45,10 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            How RecyLinker
-            <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-              {' '}Transforms Waste
-            </span>
+            How It Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our comprehensive platform connects every stakeholder in the waste value chain, 
-            creating a circular economy that benefits everyone.
+            Simple, smart, and sustainable. Get started with RecyLinker in four easy steps.
           </p>
         </div>
 
@@ -68,14 +68,17 @@ const HowItWorks = () => {
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       {step.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed mb-3">
                       {step.description}
+                    </p>
+                    <p className="text-sm text-green-600 font-medium">
+                      {step.detail}
                     </p>
                   </div>
                 </div>
 
                 {/* Step number */}
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-white border-2 border-green-500 rounded-full flex items-center justify-center text-green-600 font-bold text-sm">
+                <div className="absolute -top-2 -right-2 w-8 h-8 bg-white border-2 border-green-500 rounded-full flex items-center justify-center text-green-600 font-bold text-sm z-10">
                   {index + 1}
                 </div>
               </div>
@@ -84,9 +87,14 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center mt-16">
-          <button className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-            Join the Circular Economy
-          </button>
+          <div className="inline-flex flex-col sm:flex-row gap-4">
+            <button className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+              📱 Download the App
+            </button>
+            <button className="border-2 border-green-500 text-green-600 px-8 py-4 rounded-full font-semibold hover:bg-green-50 transition-all duration-300">
+              🚛 Become a Driver
+            </button>
+          </div>
         </div>
       </div>
     </section>

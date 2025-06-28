@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
+import Features from './components/Features';
+import Stakeholders from './components/Stakeholders';
+import WhyRecyLinker from './components/WhyRecyLinker';
 import SDGAlignment from './components/SDGAlignment';
 import Impact from './components/Impact';
 import Testimonials from './components/Testimonials';
+import Newsletter from './components/Newsletter';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 
@@ -14,10 +17,14 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
-      <Features />
       <HowItWorks />
+      <Features />
+      <Stakeholders />
+      <WhyRecyLinker />
       <SDGAlignment />
       <Impact />
+      <Testimonials />
+      <Newsletter />
       <CTA />
       <Footer />
     </div>
